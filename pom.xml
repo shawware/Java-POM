@@ -4,7 +4,7 @@
 
   <groupId>au.com.shawware</groupId>
   <artifactId>sw-java-pom</artifactId>
-  <version>0.9.2</version>
+  <version>0.9.3</version>
 
   <name>Shawware Java POM</name>
   <description>A skeleton Maven project designed to be the parent project for Shawwware Java projects. That is, it collates common project settings in a single place for re-use and consistency across projects.</description>
@@ -49,6 +49,10 @@
       </plugin>
     </plugins>
     <resources>
+      <resource>
+        <directory>src/main/resources</directory>
+        <filtering>true</filtering>
+      </resource>
       <resource>
         <directory>${basedir}</directory>
         <filtering>true</filtering>
