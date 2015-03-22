@@ -4,7 +4,7 @@
 
   <groupId>au.com.shawware</groupId>
   <artifactId>sw-java-pom</artifactId>
-  <version>0.9.3</version>
+  <version>0.9.4</version>
 
   <name>Shawware Java POM</name>
   <description>A skeleton Maven project designed to be the parent project for Shawwware Java projects. That is, it collates common project settings in a single place for re-use and consistency across projects.</description>
@@ -115,7 +115,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.11</version>
+      <version>4.12</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
