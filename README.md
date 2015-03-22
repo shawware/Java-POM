@@ -14,6 +14,6 @@ The parent POM specifies:
 * GPL licensing information
 * Java 1.7 source and target files
 * Generation of JavaDoc and Surefire reports for the site
-* a test-scoped dependency on JUnit 4.11
+* a test-scoped dependency on JUnit 4
 * inclusion of GitHub's standard README.md in the built jar file
 * inclusion of LICENSE.TXT in the built jar file
