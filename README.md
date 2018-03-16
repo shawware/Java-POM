@@ -12,7 +12,7 @@ The parent POM specifies:
 * the shawware organisation name and URL
 * source encoding of UTF-8
 * GPL licensing information
-* Java 1.7 source and target files
+* Java 1.8 source and target files
 * Generation of JavaDoc and Surefire reports for the site
 * a test-scoped dependency on JUnit 4
 * inclusion of GitHub's standard README.md in the built jar file

@@ -4,7 +4,7 @@
 
   <groupId>au.com.shawware</groupId>
   <artifactId>sw-java-pom</artifactId>
-  <version>0.9.4</version>
+  <version>0.9.5</version>
 
   <name>Shawware Java POM</name>
   <description>A skeleton Maven project designed to be the parent project for Shawwware Java projects. That is, it collates common project settings in a single place for re-use and consistency across projects.</description>
@@ -43,8 +43,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.1</version>
         <configuration>
-          <source>1.7</source>
-          <target>1.7</target>
+          <source>1.8</source>
+          <target>1.8</target>
         </configuration>
       </plugin>
     </plugins>
